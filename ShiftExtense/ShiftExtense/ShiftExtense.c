@@ -124,7 +124,7 @@ static inline void _init()
 	pinSet(clockpin, OUTPUT);
 	pinsMultiSet(bit_pins, OUTPUT);
 	pinsMultiWrite(bit_pins, LOW);
-	//USART_Init(57600);
+	USART_Init(57600);
 }
 /************************************************************************/
 /* Display the bits                                                     */
@@ -180,7 +180,7 @@ int main(void)
 	_init();
     while(1)
     {
-		//SerialReceive();
-		Display();
+		SerialReceive();
+		//Display();
 	}		
 }

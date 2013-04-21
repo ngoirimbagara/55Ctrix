@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "ShiftExtense", "ShiftExtense\ShiftExtense.cproj", "{903B47DF-5F69-4687-AFA6-44ADEFF742DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{903B47DF-5F69-4687-AFA6-44ADEFF742DB}.Debug|AVR.ActiveCfg = Debug|AVR
+		{903B47DF-5F69-4687-AFA6-44ADEFF742DB}.Debug|AVR.Build.0 = Debug|AVR
+		{903B47DF-5F69-4687-AFA6-44ADEFF742DB}.Release|AVR.ActiveCfg = Release|AVR
+		{903B47DF-5F69-4687-AFA6-44ADEFF742DB}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
